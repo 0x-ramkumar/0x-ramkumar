@@ -1,0 +1,220 @@
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+.header {
+    height:60px;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    position: sticky;
+    top: 0px;
+}
+.header .child1{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .child1 h2 {
+    color: white;
+    font-size: 30px;
+}
+.header .child1 h2 span {
+    color: red;
+}
+.header .child2{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.header .child2 .nav a{
+    color: white;
+    font-size: 18px;  
+    font-weight: 600;
+    text-decoration: none;
+}
+.header .child2 .nav a:hover {
+    color: red;
+}
+.header .child2 .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 200px;
+    width: 100%;
+    list-style-type: none;
+}
+/* home  */
+#home {
+    height: 100vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .child1  */
+#home .child1{
+    height: 75%;
+    width: 30%;
+}
+/* image  */
+#home .child1 img{
+    height:100%;
+    width: 100%;
+}
+/* .child2  */
+#home .child2{
+    height: 75%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 24px 10px;
+}
+/* hello world */
+#home .child2 .hed {
+    font-size: 30px;
+    color:rgb(152, 143, 143);
+}
+/* ram  */
+#home .child2 .name {
+    font-size: 34px;
+    color: rgb(152, 143, 143);;
+}
+/* frontent developer  */
+#home .child2 .lear{
+    font-size:30px ;
+    color: red;
+    font-weight: 800;
+}
+.child2 .name span{
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+}
+/* content  */
+#home .child2 .para {
+    font-size: 18px;
+    color: gainsboro;
+    line-height: 35px;
+    text-align: justify;
+}
+/* button  */
+.child2 .but button {
+    background: black;
+    color: gainsboro;
+    border: 2px solid gainsboro;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px 0px grey;
+    border-radius: 10px;
+}
+.child2 .but button{
+    padding: 6px 8px;
+    font-size: 16px;
+}
+.child2 .but button:hover {
+    background: red;
+    border: 2px solid red;
+    color: black;
+}
+/* mediaqueries mobile */
+@media only screen and (max-width:425px){
+    .header {
+        flex-direction: column;
+        height: 100%;
+    }
+    .header .child1 {
+        width: 100%;
+    }
+    .header .child2 {
+        width: 100%;
+    }
+    .home{
+        height: 100%;
+    }   
+    #home{
+        flex-direction: column;
+        height: 100%;
+    }
+    #home .child1{
+        height: 100%;
+        width: 100%;
+        padding: 30px 20px;
+    }
+    #home .child2{
+        height: 100%;
+        padding: 30px 20px;
+        width: 100%;
+        align-items: center;
+    }
+    #home .child2 .hed{
+        font-size: 25px;
+        margin-bottom: 6px;
+    }
+    #home .child2 .name{
+        font-size: 28px;
+        margin-bottom: 6px;
+    }
+    #home .child2 .name span{
+        font-size: 30px;
+    }
+    #home .child2 .lear{
+        font-size:18px ;
+        margin-bottom: 6px;
+    }
+
+    #home .child2 .para{
+        font-size:16px;
+        line-height: 30px;
+        margin-bottom: 6px;
+    }
+}
+/* mediaqueries tablet */
+@media only screen and (max-width:768px){
+    #home{
+        flex-direction: column;
+        height: 100%;
+    }
+    #home .child1{
+        height: 90%;
+        width: 70%;
+        padding: 30px 20px;
+    }
+    #home .child2{
+        height: 100%;
+        padding: 30px 20px;
+        width: 100%;
+        align-items: center;
+    }
+    #home .child2 .hed{
+        font-size: 25px;
+        margin-bottom: 6px;
+    }
+    #home .child2 .name{
+        font-size: 28px;
+        margin-bottom: 6px;
+    }
+    #home .child2 .name span{
+        font-size: 30px;
+    }
+    #home .child2 .lear{
+        font-size:18px ;
+        margin-bottom: 6px;
+    }
+
+    #home .child2 .para{
+        font-size:16px;
+        line-height: 30px;
+        margin-bottom: 6px;
+    }
+}

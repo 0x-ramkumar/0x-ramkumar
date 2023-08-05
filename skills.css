@@ -1,0 +1,336 @@
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+.header {
+    height:60px;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    position: sticky;
+    top: 0px;
+}
+.header .child1{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid red;    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .child1 h2 {
+    color: white;
+    font-size: 30px;
+}
+.header .child1 h2 span {
+    color: red;
+}
+.header .child2{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.header .child2 .nav a{
+    color: white;
+    font-size: 18px;  
+    font-weight: 600;
+    text-decoration: none;
+}
+.header .child2 .nav a:hover {
+    color: red;
+}
+.header .child2 .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 200px;
+    width: 100%;
+    list-style-type: none;
+}
+
+/* my skills */
+.home h1{
+    background: black;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 20px;
+    /* border: 1px solid red; */
+}
+/* span */
+.home h1 span{
+    font-size: 36px;
+    color: red;
+    font-weight: 900;
+}
+/* .home */
+#home{
+    height: 100vh;
+    width: 100%;
+    background: black;
+    padding:80px 140px;
+    
+}
+/* .child1 */
+#home .child1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row;
+}
+/* div */
+#home .child1 .html{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px gainsboro;
+    background: rgb(15, 15, 15);
+    margin-bottom: 40px; 
+}
+/* image */
+.child1 .html img{
+    height: 150px;
+    width: 150px;
+    padding-top: 15PX;
+}
+/* :hover */
+#home .child1 .html:hover {
+    position: relative;
+    top: 20px;
+}
+/* html */
+.child1 .html h2{
+    font-size: 24px;
+    color: gainsboro;
+    line-height: 46px;
+    text-align: center; 
+}
+/* div */
+#home .child1 .css{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px gainsboro;
+    background: rgb(15, 15, 15);
+    margin-bottom: 40px; 
+}
+/* image */
+.child1 .css img{
+    height: 150px;
+    width: 150px;
+    padding-top: 15PX;
+}
+/* :hover */
+#home .child1 .css:hover {
+    position: relative;
+    top: 20px;
+}
+/* .css */
+.child1 .css h2{
+    font-size: 24px;
+    color: gainsboro;
+    line-height: 46px;
+    text-align: center; 
+}
+/* div */
+#home .child1 .js{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px gainsboro;
+    background: rgb(15, 15, 15); 
+    margin-bottom: 40px;
+}
+/* image */
+.child1 .js img{
+    height: 150px;
+    width: 150px;
+    padding-top: 15PX;
+}
+/* :hover */
+#home .child1 .js:hover {
+    position: relative;
+    top: 20px;
+}
+/* javascript */
+.child1 .js h2{
+    font-size: 24px;
+    color: gainsboro;
+    line-height: 46px;
+    text-align: center; 
+}
+/* child2 */
+#home .child2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row;
+}
+/* div */
+#home .child2 .python{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px gainsboro;
+    background: rgb(15, 15, 15); 
+    margin-bottom: 40px;
+}
+/* image */
+.child2 .python img{
+    height: 150px;
+    width: 150px;
+    padding-top: 15PX;
+}
+/* .hover */
+#home .child2 .python:hover {
+    position: relative;
+    top: 20px;
+}
+/* .python */
+.child2 .python h2{
+    font-size: 24px;
+    color: gainsboro;
+    line-height: 46px;
+}
+/* div */
+#home .child2 .git{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px gainsboro;
+    background: rgb(15, 15, 15);  
+    margin-bottom: 40px;
+}
+/* image */
+.child2 .git img{
+    height: 150px;
+    width: 150px;
+    padding-top: 15PX;
+}
+/* .hover */
+#home .child2 .git:hover {
+    position: relative;
+    top: 20px;
+}
+/* .git */
+
+.child2 .git h2{
+    font-size: 24px;
+    color:gainsboro;
+    line-height: 46px;
+    text-align: center; 
+}
+/* .sql */
+#home .child2 .sql{
+    height: 200px;
+    width: 200px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px gainsboro;
+    background: rgb(15, 15, 15);
+    margin-bottom: 40px; 
+}
+/* image */
+.child2 .sql img{
+    height: 150px;
+    width: 150px;
+    padding-top: 15PX;
+}
+/* hover */
+#home .child2 .sql:hover {
+    position: relative;
+    top: 20px;
+}
+/* .sql */
+.child2 .sql h2{
+    font-size: 24px;
+    color: gainsboro;
+    line-height: 46px;
+}
+
+/* mediaqueries mobile */
+@media only screen and (max-width:425px){
+    .header {
+        flex-direction: column;
+        height: 100%;
+    }
+    .header .child1 {
+        width: 100%;
+    }
+    .header .child2 {
+        width: 100%;
+    }
+    .home{
+        height: 100%;
+    }   
+    #home{
+        flex-direction: column;
+        height: 100%;
+        padding: 20px 40px;   
+    }
+    #home .child1{
+        height: 100%;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 30px 20px;
+    }
+    #home .child2{
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        padding: 30px 20px;
+    }
+}    
+/* mediaqueries tablet */
+@media only screen and (max-width:768px){
+    #home{
+        flex-direction: column;
+        height: 100%;
+        padding: 20px 40px;   
+    }
+    #home .child1{
+        height: 100%;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 30px 20px;
+    }#home .child2{
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+}
